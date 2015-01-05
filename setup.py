@@ -12,17 +12,17 @@ readme = open('README.rst').read()
 history = open('HISTORY.rst').read().replace('.. :changelog:', '')
 
 requirements = [
-    # TODO: put package requirements here
+    # None
 ]
 
 test_requirements = [
-    # TODO: put package test requirements here
+    'tox',
 ]
 
 setup(
     name='generalwords',
     version='0.1.0',
-    description='Python Boilerplate contains all the boilerplate you need to create a Python package.',
+    description='A somewhat curated collection of words to use in nonce generation.',
     long_description=readme + '\n\n' + history,
     author='Christopher Petrilli',
     author_email='petrilli@amber.org',
