@@ -8,8 +8,9 @@ General Words
 .. image:: https://travis-ci.org/petrilli/generalwords.png?branch=master
         :target: https://travis-ci.org/petrilli/generalwords
 
-.. image:: https://pypip.in/d/generalwords/badge.png
-        :target: https://pypi.python.org/pypi/generalwords
+.. image:: https://pypip.in/py_versions/generalwords/badge.png
+    :target: https://pypi.python.org/pypi/generalwords/
+    :alt: Supported Python versions
 
 Often, when building an application, I've had occasions where I need to provide
 a nonce of some sort to a user.  A nonce is some thing, whether number, or
