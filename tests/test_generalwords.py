@@ -22,7 +22,7 @@ class TestGeneralwords(unittest.TestCase):
 
     def test_get_word_is_somewhat_random(self):
         sample_size = 100
-        words = {get_word() for i in range(sample_size)}
+        words = set(get_word() for i in range(sample_size))
         self.assertAlmostEqual(len(words), sample_size,
                                delta=int((sample_size * 0.1)))
 
