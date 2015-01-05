@@ -34,7 +34,7 @@ setup(
                  'generalwords'},
     include_package_data=True,
     install_requires=requirements,
-    license="BSD",
+    license="BSD Simplified",
     zip_safe=False,
     keywords='generalwords',
     classifiers=[
