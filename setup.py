@@ -21,7 +21,7 @@ test_requirements = [
 
 setup(
     name='generalwords',
-    version='0.1.0',
+    version='1.0',
     description='A somewhat curated collection of words to use in nonce generation.',
     long_description=readme + '\n\n' + history,
     author='Christopher Petrilli',
@@ -43,7 +43,6 @@ setup(
         'License :: OSI Approved :: BSD License',
         'Natural Language :: English',
         "Programming Language :: Python :: 2",
-        'Programming Language :: Python :: 2.6',
         'Programming Language :: Python :: 2.7',
         'Programming Language :: Python :: 3',
         'Programming Language :: Python :: 3.3',

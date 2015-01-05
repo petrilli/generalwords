@@ -18,7 +18,7 @@ class TestGeneralwords(unittest.TestCase):
         pass
 
     def test_get_word(self):
-        self.assertIsNotNone(get_word)
+        self.assertIsNotNone(get_word())
 
     def test_get_word_is_somewhat_random(self):
         sample_size = 100
