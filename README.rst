@@ -56,7 +56,17 @@ Combined, a total of 2,668 headwords were retained.
 Usage Example
 -------------
 
-TODO
+The library is trivially easy to use::
+
+    >>> from generalwords import *
+    >>> get_word()
+    'tire'
+    >>> get_word()
+    'offense'
+    >>> get_words(n=3)
+    ('climb', 'repair', 'force')
+
+In the future, there may be more options, but not right now.
 
 
 Not Done Yet
@@ -66,3 +76,4 @@ While the library will never be massively complicated, there's a few things I'd
 like to have in the future:
 
 * Expand to other languages
+* Add additional word sources
