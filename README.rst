@@ -8,7 +8,7 @@ General Words
 .. image:: https://travis-ci.org/petrilli/generalwords.png?branch=master
         :target: https://travis-ci.org/petrilli/generalwords
 
-.. image:: https://pypip.in/py_versions/generalwords/badge.png
+.. image:: https://img.shields.io/pypi/pyversions/generalwords.svg
     :target: https://pypi.python.org/pypi/generalwords/
     :alt: Supported Python versions
 
